@@ -1,0 +1,14 @@
+// script.js
+
+const originalText = document.querySelector('.original textarea');
+const translatedText = document.querySelector('.translated p');
+const translateBtn = document.querySelector('.translate-btn');
+
+translateBtn.addEventListener('click', () => {
+  // Gọi API dịch văn bản
+  fetch(`https://api.example.com/translate?text=${originalText.value}`)
+    .then(res => res.json())
+    .then(data => {
+      translatedText.innerText = data.translated; 
+    })
+});
