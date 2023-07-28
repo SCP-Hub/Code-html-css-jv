@@ -1,0 +1,61 @@
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame:FindFirstChild("Donate") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame.Donate:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame:FindFirstChild("NewBundle") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame.NewBundle:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("Invite") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.Invite:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("AutoF") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.AutoF:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("SlashClick") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.SlashClick:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("PlusFrame") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.PlusFrame:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("Shift") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.Shift:Destroy() end
+
+local mt = getrawmetatable(game) make_writeable(mt)
+local nc = mt.__namecall
+
+mt.__namecall = newcclosure(function (self, ...)
+local method = getnamecallmethod()
+local args = {...}
+
+if method == "FireServer" and args[1] == "HackCheck" and tostring(self) == "MonsterEvent" then return end
+if method == "FireServer" and args[1] == "PlayServerAni" and tostring(self) == "MonsterEvent" then return end
+
+return nc(self, table.unpack(args))
+end)
+
+function C() spawn(function () while getgenv().C do
+    for i, v in pairs(workspace.ForScript.Monster:GetDescendants()) do
+        if v:FindFirstChild("Monster_") then
+            for i, v in pairs(v.Monster_:GetChildren()) do
+                if v then local args = {[1] = "DamToMonster",[2] = v,[3] = {["damtype"] = "normal"}}game:GetService("ReplicatedStorage").CurRemotes.MonsterEvent:FireServer(unpack(args)) end
+            end
+        end
+    end wait()
+        end
+    endif game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame:FindFirstChild("Donate") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame.Donate:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame:FindFirstChild("NewBundle") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.MenuFrame.NewBundle:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("Invite") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.Invite:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("AutoF") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.AutoF:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("SlashClick") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.SlashClick:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("PlusFrame") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.PlusFrame:Destroy() end
+if game.Players.asyesast.PlayerGui.MainGui.MainFrame:FindFirstChild("Shift") then game.Players.asyesast.PlayerGui.MainGui.MainFrame.Shift:Destroy() end
+
+local mt = getrawmetatable(game) make_writeable(mt)
+local nc = mt.__namecall
+
+mt.__namecall = newcclosure(function (self, ...)
+local method = getnamecallmethod()
+local args = {...}
+
+if method == "FireServer" and args[1] == "HackCheck" and tostring(self) == "MonsterEvent" then return end
+if method == "FireServer" and args[1] == "PlayServerAni" and tostring(self) == "MonsterEvent" then return end
+
+return nc(self, table.unpack(args))
+end)
+
+function C() spawn(function () while getgenv().C do
+    for i, v in pairs(workspace.ForScript.Monster:GetDescendants()) do
+        if v:FindFirstChild("Monster_") then
+            for i, v in pairs(v.Monster_:GetChildren()) do
+                if v then local args = {[1] = "DamToMonster",[2] = v,[3] = {["damtype"] = "normal"}}game:GetService("ReplicatedStorage").CurRemotes.MonsterEvent:FireServer(unpack(args)) end
+            end
+        end
+    end wait()
+        end
+    end)
