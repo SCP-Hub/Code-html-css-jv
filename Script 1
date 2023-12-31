@@ -1,0 +1,170 @@
+1.`Fai Fao`:
+```
+loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+```
+2.`Zen hub`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
+```
+3.`Vector`:
+```
+_G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+```
+4.`Zekrom Hub X`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
+```
+5.`Full V2`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/Fullloader"))()
+```
+6.`OMG Hub`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+```
+7.`Redz Hub`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+```
+8.`ScriptBlox`:
+```
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Script-Blox'))()
+```
+9.`HoHo Hub`:
+```
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+```
+10.`Unknown Hub V3`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/UnknownHubV3"))()
+```
+11.`W-Azure V2`:
+```
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false
+getgenv().FixCrash2 = false
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+```
+12.`Apple Hub`:
+```
+_G.Ver = "1.3"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHub/main/LoaderBF"))()
+```
+13.`Makori Hub`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
+```
+14.`SPECIALIZED`:
+```
+loadstring(game:HttpGet('https://raw.githubusercontent.com/specilaizes/Special/main/SpecialHub'))()
+```
+15.`Mtriet bounty V2`
+```
+getgenv().Config = {
+    ["Team"] = "Pirates",
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["Url"] = ""
+    },
+    ["Skip"] = {
+        ["V4"] = true,
+        ["Fruit"] = {
+            "Leopard-Leopard",
+            "Venom-Venom",
+            "Dough-Dough",
+            "Portal-Portal"
+        }
+    },
+    ["Chat"] = {
+        ["Enable"] = false,
+        ["Content"] = {"Hello me use MTriet Hub Auto Bounty"}
+    },
+    ["Misc"] = {
+        ["Hide If Low Health"] = true,
+        ["Hide Health"] = {4000,5000},
+        ["Lock Camera"] = true,
+        ["FPS Boost"] = false,
+        ["White Screen"] = false,
+        ["Bypass TP"] = true,
+        ["Spam All Skill On V4"] = true,
+        ["Gun Method"] = false
+    },
+    ["Weapons"] = {
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.1},
+                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["V"] = {["Enable"] = false, ["HoldTime"] = 0}
+            }
+        },
+        ["Blox Fruit"] = {
+            ["Enable"] = true,
+            ["Delay"] = 3,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["C"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["V"] = {["Enable"] = true, ["HoldTime"] = 2},
+                ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
+            }
+        },
+        ["Sword"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 1},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+            }
+        },
+        ["Gun"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.2,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+            }
+        }
+    }
+}
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Hunt/main/AutoBountyV2.lua"))()
+```
+16.`Speed Hub X`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/BloxFruit_V2_Beta_SpeedHubX.lua"))()
+```
+17.`Ego Hub`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
+```
+18.`Auto FOD`:
+```
+getgenv().Config = {
+    ["StartFarmChest"] = true,
+    ["Team"] = "Marines",
+    ["TimeReset"] = 5, -- No Edit
+    ["White Screen"] = false,
+    ["Stop The God's Chalice"] = true,
+    ["Stop The Fist of Darkness"] = true,
+    ["HopServer"] = {
+        ["Enable"] = true,
+        ["BypassServer"] = true,
+        ["Region"] = "Singapore"
+    },
+    ["Server Discord"] = "https://discord.gg/mFzWdBUn45"
+}
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/Chest-Farm.lua"))()
+```
+19.`GOBLIN Hub`:
+```
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GoblinKun009/Script/main/GoblinLoader'))()
+```
+20.`Madox Hub`:
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()Copied!
+```
